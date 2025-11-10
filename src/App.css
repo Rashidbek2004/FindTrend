@@ -1,0 +1,375 @@
+nav {
+  padding: 15px 0px;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.app.active footer .container .link a {
+  color: white;
+}
+.app.active nav .container .links a {
+  color: white;
+}
+nav .container .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+  font-family: cursive;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000000;
+}
+.box.active nav .container .btns button {
+  color: white;
+}
+nav .container .btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav .container .btns button {
+  padding: 6px 15px;
+}
+.app.active nav .container .btns button {
+  border: none;
+  background: transparent;
+  color: white;
+}
+nav .container .btns .login {
+  border: none;
+  background: transparent;
+}
+
+nav .container .btns .border {
+  background: transparent;
+  border-radius: 25px;
+}
+.hero .container .writes {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 180px;
+}
+.hero .container .writes .write h1 {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.hero .container .writes .write h2 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.hero .container .writes .write p {
+  width: 40%;
+  color: #8b8b8b;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.hero .container .writes .write1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.hero .container .writes .write1 .btn button {
+  border-radius: 25px;
+  background-color: #a8ff35;
+  padding: 8px 10px;
+  border: none;
+}
+
+.sectionOne {
+  background-color: #a8ff35;
+}
+.sectionOne .container {
+  margin-bottom: 80px;
+  padding: 90px 0px;
+}
+.sectionOne .container .sectionWrite {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionOne .container .sectionWrite h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.sectionOne .container .sectionWrite .photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.sectionOne .container .sectionWrite .photos .card {
+  width: 20%;
+  border: 1px solid red;
+  padding: 30px 40px;
+  background-color: white;
+  border-radius: 6px;
+  transform: scale(0);
+}
+.modal1.active .sectionOne .container .sectionWrite .photos .card {
+  transform: scale(1);
+}
+
+.sectionOne .container .sectionWrite .photos .card button {
+  padding: 6px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.sectionOne .container .sectionWrite .photos .card button span {
+  color: gray;
+}
+
+.sectionOne .container .lorem p {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.sectionTwo .container {
+  padding-bottom: 40px;
+}
+.sectionTwo .container .write {
+  width: 70%;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.sectionTwo .container .write h1 span {
+  color: #adadad;
+}
+
+.sectionTwo .container .make h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.sectionTwo .container .make .logotivs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sectionTwo .container .make .logotivs .logotiv {
+  width: 24%;
+  height: 80px;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  text-align: center;
+  object-fit: contain;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sectionThree {
+  background-color: #fafafa;
+}
+
+.sectionThree .container {
+  padding: 90px 0px;
+}
+.sectionThree .container .write {
+  padding: 50px 0px;
+}
+.sectionThree .container .write h1 {
+  text-align: center;
+}
+
+.sectionThree .container .cards {
+  text-align: center;
+}
+
+.sectionThree .container .cards .box {
+  margin-bottom: 20px;
+}
+
+.sectionThree .container .cards .box .image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sectionThree .container .cards .box .image img {
+  width: 100%;
+}
+
+.sectionThree .container .btns {
+  text-align: center;
+}
+
+.sectionThree .container .btns button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+
+.sectionFour .container .get {
+  margin-top: 50px;
+  text-align: center;
+}
+.sectionFour .container .write {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sectionFour .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.sectionFour .container .cards .card {
+  padding: 50px 10px;
+  width: 30%;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+}
+
+.sectionFour .container .cards .card1 {
+  padding: 50px 10px;
+  background-color: #a8ff35;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.sectionFour .container .cards .card1 p {
+  margin-bottom: 20px;
+}
+
+.sectionFour .container .cards .card p {
+  margin-bottom: 20px;
+}
+
+.sectionFour .container .cards .card h1 span {
+  font-size: 20px;
+}
+.sectionFour .container .cards .card h1 {
+  margin: 20px 0px;
+}
+.sectionFour .container .cards .card1 h1 {
+  margin: 20px 0px;
+}
+
+.sectionFour .container .cards .card1 h6 {
+  margin-bottom: 20px;
+}
+.sectionFour .container .cards .card1 h5 {
+  margin-bottom: 80px;
+}
+.sectionFour .container .cards .card1 h1 span {
+  font-size: 20px;
+}
+
+.sectionFour .container .cards .card h6 {
+  margin-bottom: 20px;
+}
+.sectionFour .container .cards .card h5 {
+  margin-bottom: 80px;
+}
+
+.sectionFour .container .cards .card .btn {
+  text-align: center;
+}
+
+.sectionFour .container .cards .card .btn button {
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #a8ff35;
+  border: none;
+}
+.sectionFour .container .cards .card1 .btn {
+  text-align: center;
+}
+
+.sectionFour .container .cards .card1 .btn button {
+  width: 80%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: black;
+  border: none;
+  color: white;
+}
+
+.sectionSeven {
+  padding: 80px 0px;
+  background-color: #a8ff35;
+}
+
+.sectionSeven .container {
+  margin-bottom: 50px;
+}
+.sectionSeven .container .write {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sectionSeven .container .write h1 {
+  margin-bottom: 10px;
+}
+
+.sectionSeven .container .write .gray {
+  color: #87d322;
+}
+
+.sectionSeven .container .write .join button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #000000;
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container .link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+  font-size: 20px;
+}
+
+footer .container .link a {
+  text-decoration: none;
+  color: black;
+}
+
+.app.active {
+  background-color: #000000;
+  color: white;
+}
